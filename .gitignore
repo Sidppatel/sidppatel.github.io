@@ -4,6 +4,7 @@ Thumbs.db
 .vscode/
 .idea/
 *.swp
+*.ps1
 
 # Node (if you ever add a build later)
 node_modules/
