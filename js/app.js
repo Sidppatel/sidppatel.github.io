@@ -66,7 +66,7 @@ function renderResume(d) {
       <p class="mt-1 text-lg font-bold text-accent">${escapeHtml(pi.title)} ${pi.subtitle ? '<span class="text-slate-400 font-normal">  |  </span>' + escapeHtml(pi.subtitle) : ''}</p>
       <p class="mt-2 text-sm text-slate-500">
         ${escapeHtml(pi.location)}  &middot;  ${escapeHtml(pi.phone)}  &middot;
-        <a class="hover:underline" href="mailto:${escapeHtml(pi.email)}">${escapeHtml(pi.email)}</a>
+        <a class="hover:underline" href="mailto:${escapeHtml(pi.email)}">${escapeHtml(pi.email)}</a>${pi.portfolio ? `  &middot;  <a class="hover:underline" target="_blank" rel="noopener" href="https://${escapeHtml(pi.portfolio)}">${escapeHtml(pi.portfolio)}</a>` : ''}
       </p>
     </header>
 

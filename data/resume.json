@@ -7,7 +7,8 @@
     "phone": "+1 (205) 534-8664",
     "email": "patelsiddh1408@live.com",
     "linkedin": "linkedin.com/in/siddhppatel",
-    "github": "github.com/sidppatel"
+    "github": "github.com/sidppatel",
+    "portfolio": "sidppatel.github.io"
   },
   "professional_summary": "Data & BI engineer with 5+ years of end-to-end experience designing and operating the systems that turn raw multi-source operational data into reliable, sub-second analytics. At Austal USA - a $2B+ Navy shipbuilding program - I architect containerized ETL pipelines processing 2M+ records/day from 20+ heterogeneous sources, design the semantic layer that standardizes KPIs across six departments, and deliver the real-time Power BI platform that leadership relies on. I work across the full stack: pipeline design, distributed processing, database optimization, semantic modeling, governance, and dashboard delivery. I've cut data latency from 10 minutes to under 2 seconds, achieved ISO 9001 compliance, reduced material waste 30%, and built reusable templates that cut new project onboarding by 60%. I translate business requirements into technical architecture, mentor junior engineers, and partner with executive stakeholders - bridging engineering depth and BI craft.",
   "core_competencies": [
