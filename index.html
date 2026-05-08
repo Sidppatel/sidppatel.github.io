@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Siddh Patel - Data & BI Engineer</title>
+  <meta name="description" content="Siddh Patel - Analytics Engineer, BI Solutions Architect, Senior Data Engineer. ETL, semantic layer design, real-time BI." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            navy:   { DEFAULT: '#1A3A5C', dark: '#0F2440' },
+            accent: '#2E75B6',
+            slate1: '#5B7FA8',
+            ink:    '#222222',
+          },
+          fontFamily: { sans: ['Inter', 'system-ui', 'sans-serif'] },
+        }
+      }
+    }
+  </script>
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body class="bg-white dark:bg-slate-900 text-ink dark:text-slate-100 antialiased">
+
+  <!-- ============================================================ NAV -->
+  <nav id="topnav" class="fixed top-0 inset-x-0 z-50 bg-white/85 dark:bg-slate-900/85 backdrop-blur border-b border-slate-200 dark:border-slate-800">
+    <div class="max-w-6xl mx-auto px-6 h-14 flex items-center justify-between">
+      <a href="#hero" class="font-bold text-navy dark:text-white tracking-wide">SIDDH PATEL</a>
+      <ul class="hidden md:flex gap-7 text-sm font-medium">
+        <li><a href="#about"    class="hover:text-accent">About</a></li>
+        <li><a href="#resume"   class="hover:text-accent">Resume</a></li>
+        <li><a href="#projects" class="hover:text-accent">Projects</a></li>
+        <li><a href="#blog"     class="hover:text-accent">Blog</a></li>
+        <li><a href="#contact"  class="hover:text-accent">Contact</a></li>
+      </ul>
+      <button id="theme-toggle" aria-label="Toggle theme" class="p-2 rounded-md hover:bg-slate-100 dark:hover:bg-slate-800">
+        <svg class="theme-icon-light w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v2m0 14v2M5 12H3m18 0h-2M6.34 6.34l-1.41-1.41m13.74 13.74-1.41-1.41M6.34 17.66l-1.41 1.41M19.07 4.93 17.66 6.34M16 12a4 4 0 1 1-8 0 4 4 0 0 1 8 0Z"/></svg>
+        <svg class="theme-icon-dark hidden w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79Z"/></svg>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ============================================================ HERO -->
+  <section id="hero" class="pt-32 pb-20 px-6">
+    <div class="max-w-6xl mx-auto">
+      <p class="text-accent font-medium tracking-widest text-sm mb-4">HELLO, I'M</p>
+      <h1 class="text-5xl md:text-7xl font-extrabold text-navy dark:text-white tracking-tight">Siddh Patel</h1>
+      <h2 class="mt-3 text-xl md:text-2xl text-slate1 font-medium">
+        Analytics &amp; BI Engineer  -  Pipeline Architecture, Semantic Layer Design, Real-Time BI
+      </h2>
+      <p class="mt-6 max-w-3xl text-slate-600 dark:text-slate-300 leading-relaxed">
+        I build the data infrastructure that turns raw operational signal into reliable, sub-second analytics.
+        At Austal USA I architect ETL pipelines processing 2M+ records daily for a $2B+ Navy shipbuilding program -
+        designing the semantic layer, governance framework, and real-time dashboards that leadership relies on.
+      </p>
+
+      <div class="mt-8 flex flex-wrap gap-3">
+        <a href="#resume"   class="px-5 py-2.5 rounded-md bg-navy text-white text-sm font-semibold hover:bg-navy-dark transition">View Resume</a>
+        <a href="#projects" class="px-5 py-2.5 rounded-md border border-navy text-navy dark:text-white dark:border-white text-sm font-semibold hover:bg-navy hover:text-white transition">See Projects</a>
+        <a href="mailto:patelsiddh1408@live.com" class="px-5 py-2.5 rounded-md border border-slate-300 dark:border-slate-700 text-sm font-semibold hover:border-accent hover:text-accent transition">Get in Touch</a>
+      </div>
+
+      <div class="mt-8 flex gap-6 text-sm text-slate-500">
+        <a href="https://linkedin.com/in/siddhppatel" target="_blank" rel="noopener" class="hover:text-accent">linkedin.com/in/siddhppatel</a>
+        <a href="https://github.com/sidppatel" target="_blank" rel="noopener" class="hover:text-accent">github.com/sidppatel</a>
+        <span>Mobile, AL</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================ ABOUT -->
+  <section id="about" class="py-20 px-6 bg-slate-50 dark:bg-slate-800/40">
+    <div class="max-w-6xl mx-auto grid md:grid-cols-3 gap-10">
+      <div>
+        <p class="text-accent font-medium tracking-widest text-sm mb-3">ABOUT</p>
+        <h2 class="text-3xl font-bold text-navy dark:text-white">Where I sit in the stack</h2>
+      </div>
+      <div class="md:col-span-2 space-y-5 text-slate-700 dark:text-slate-300 leading-relaxed">
+        <p>
+          I work at the intersection of data engineering and business intelligence - the layer that translates
+          raw multi-source operational data into the metrics, models, and dashboards that drive decisions.
+          I'm not a pure BI developer or a pure pipeline engineer - I'm the person who makes both layers
+          play together so the answer in the dashboard actually means what the executive thinks it means.
+        </p>
+        <p>
+          My favorite problems are the ones where the data is messy on purpose: legacy ERPs, IoT sensor streams
+          with inconsistent schemas, audits that expect ISO 9001 traceability. The fix is rarely glamorous - it's
+          usually a careful semantic layer, well-named columns, automated validation, and a governance contract
+          everyone actually reads.
+        </p>
+        <div class="grid grid-cols-2 gap-4 pt-4">
+          <div><div class="text-3xl font-bold text-accent">2M+</div><div class="text-sm text-slate-500">records ingested daily</div></div>
+          <div><div class="text-3xl font-bold text-accent">&lt;2s</div><div class="text-sm text-slate-500">end-to-end BI latency</div></div>
+          <div><div class="text-3xl font-bold text-accent">30%</div><div class="text-sm text-slate-500">material waste reduction</div></div>
+          <div><div class="text-3xl font-bold text-accent">60%</div><div class="text-sm text-slate-500">faster project onboarding</div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================ RESUME -->
+  <section id="resume" class="py-20 px-6">
+    <div class="max-w-6xl mx-auto">
+      <div class="mb-10">
+        <p class="text-accent font-medium tracking-widest text-sm mb-3">RESUME</p>
+        <h2 class="text-3xl font-bold text-navy dark:text-white">Five years across data &amp; BI</h2>
+        <p class="mt-2 text-slate-600 dark:text-slate-400">Pipeline architecture, semantic-layer design, real-time analytics, and the governance to keep it audit-ready.</p>
+      </div>
+      <article id="resume-render" class="rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800/60 p-8 md:p-12 shadow-sm">
+        <p class="text-slate-400">Loading resume...</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- ============================================================ PROJECTS -->
+  <section id="projects" class="py-20 px-6 bg-slate-50 dark:bg-slate-800/40">
+    <div class="max-w-6xl mx-auto">
+      <p class="text-accent font-medium tracking-widest text-sm mb-3">PROJECTS</p>
+      <h2 class="text-3xl font-bold text-navy dark:text-white mb-10">Things I built that moved a number</h2>
+      <div id="projects-grid" class="grid md:grid-cols-2 gap-6">
+        <p class="text-slate-400">Loading projects...</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================ BLOG -->
+  <section id="blog" class="py-20 px-6">
+    <div class="max-w-6xl mx-auto">
+      <p class="text-accent font-medium tracking-widest text-sm mb-3">WRITING</p>
+      <h2 class="text-3xl font-bold text-navy dark:text-white mb-10">Notes on data, BI, and shipping</h2>
+      <div id="blog-list" class="space-y-6">
+        <p class="text-slate-400">Loading posts...</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================ CONTACT -->
+  <section id="contact" class="py-20 px-6 bg-slate-50 dark:bg-slate-800/40">
+    <div class="max-w-3xl mx-auto text-center">
+      <p class="text-accent font-medium tracking-widest text-sm mb-3">CONTACT</p>
+      <h2 class="text-3xl font-bold text-navy dark:text-white">Let's talk data</h2>
+      <p class="mt-3 text-slate-600 dark:text-slate-400">
+        Looking for someone to design a semantic layer, untangle a legacy ETL, or stand up a real-time BI platform?
+        Drop me a line.
+      </p>
+      <div class="mt-8 flex flex-wrap justify-center gap-3">
+        <a href="mailto:patelsiddh1408@live.com" class="px-5 py-2.5 rounded-md bg-navy text-white text-sm font-semibold hover:bg-navy-dark">patelsiddh1408@live.com</a>
+        <a href="https://linkedin.com/in/siddhppatel" target="_blank" rel="noopener" class="px-5 py-2.5 rounded-md border border-navy text-navy dark:text-white dark:border-white text-sm font-semibold hover:bg-navy hover:text-white">LinkedIn</a>
+        <a href="https://github.com/sidppatel" target="_blank" rel="noopener" class="px-5 py-2.5 rounded-md border border-slate-300 dark:border-slate-700 text-sm font-semibold hover:border-accent hover:text-accent">GitHub</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- <footer class="py-8 text-center text-sm text-slate-500 border-t border-slate-200 dark:border-slate-800">
+    &copy; <span id="footer-year"></span> Siddh Patel. Built with HTML, Tailwind, and a little JSON.
+  </footer> -->
+
+  <script src="js/app.js" defer></script>
+</body>
+</html>

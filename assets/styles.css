@@ -1,0 +1,18 @@
+/* Small extras on top of Tailwind CDN */
+
+/* Smooth-scroll offset so anchors don't hide under sticky nav */
+section { scroll-margin-top: 70px; }
+
+/* Bigger tap targets on mobile */
+@media (max-width: 768px) {
+  .variant-btn { padding: .35rem .75rem; }
+}
+
+/* Subtle list bullet color in the resume render to match accent */
+#resume-render ul.list-disc li::marker { color: #2E75B6; }
+
+/* Disable details marker arrow flip glitch on Chrome */
+details > summary { list-style: none; }
+details > summary::-webkit-details-marker { display: none; }
+details > summary::before { content: '\25B8 '; color: #2E75B6; margin-right: .25rem; }
+details[open] > summary::before { content: '\25BE '; }

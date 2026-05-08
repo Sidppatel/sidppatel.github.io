@@ -1,0 +1,165 @@
+{
+  "personal_info": {
+    "name": "SIDDH PATEL",
+    "title": "BI Solutions Architect",
+    "subtitle": "Enterprise Analytics Architecture & Design",
+    "location": "Mobile, AL",
+    "phone": "+1 (205) 534-8664",
+    "email": "patelsiddh1408@live.com",
+    "linkedin": "linkedin.com/in/siddhppatel",
+    "github": "github.com/sidppatel"
+  },
+  "professional_summary": "BI Solutions Architect with 5+ years of experience designing and delivering end-to-end business intelligence solutions - from raw data ingestion through pipeline architecture to the executive-facing dashboards that drive decisions. What makes an architect different from a developer is the ability to see the whole system: I design the data model, build the pipeline, govern the semantic layer, and deliver the dashboard, all as a coherent and maintainable whole. At Austal USA, I architected the entire BI platform for a $2B+ Navy shipbuilding program - designing data contracts across 20+ source systems, building containerized ETL infrastructure that processes 2M+ records daily, and delivering a real-time KPI layer that reduced material waste by 30% and cut reporting overhead by 35%. I translate business requirements into technical architecture, and technical outputs into business value.",
+  "core_competencies": [
+    {
+      "category": "SOLUTION ARCHITECTURE",
+      "items": [
+        "Enterprise BI Architecture",
+        "End-to-End Data Design",
+        "Semantic Layer Design",
+        "Data Modeling & Warehousing",
+        "Requirements Translation",
+        "Vendor & Tech Evaluation",
+        "Scalable System Design"
+      ]
+    },
+    {
+      "category": "BI & ANALYTICS",
+      "items": [
+        "Power BI & Tableau",
+        "ETL/ELT Pipeline Design",
+        "KPI Framework Architecture",
+        "Real-Time Analytics",
+        "Predictive Modeling",
+        "Data Governance & Lineage",
+        "ISO 9001 Compliance"
+      ]
+    },
+    {
+      "category": "ENGINEERING & DELIVERY",
+      "items": [
+        "Apache Spark & PySpark",
+        "Docker & Kubernetes",
+        "Azure DevOps & CI/CD",
+        "SQL Server / PostgreSQL",
+        "Python & SQL Engineering",
+        "Cross-Functional Leadership",
+        "Agile / Scrum Delivery"
+      ]
+    }
+  ],
+  "technical_skills": [
+    {
+      "category": "BI & Visualization Layer",
+      "details": "Power BI (DAX, Power Query, RLS, row-level security), Tableau, SSRS, Crystal Reports, Plotly Dash - enterprise dashboard delivery"
+    },
+    {
+      "category": "Semantic & Data Modeling",
+      "details": "SQL Server, PostgreSQL, MySQL, MongoDB; semantic layer design, KPI standardization, data contracts, schema design, SQLAlchemy, ADO.NET, LINQ, Entity Framework"
+    },
+    {
+      "category": "Pipeline & Ingestion",
+      "details": "Apache Spark, PySpark (custom UDFs), Airflow, ETL/ELT design, data lineage, parallel processing, IoT sensor integration - 20+ source types"
+    },
+    {
+      "category": "Infrastructure & DevOps",
+      "details": "Docker, Kubernetes, Azure DevOps, CI/CD, Git, TFS - containerized, scalable, production-grade deployment"
+    },
+    {
+      "category": "Programming",
+      "details": "Python (Pandas, NumPy, PySpark, Plotly, Scikit-learn), R, SQL, C#, VB, PowerShell, REST APIs, Flask, ASP.NET"
+    },
+    {
+      "category": "Governance & Compliance",
+      "details": "Data lineage documentation, naming conventions, refresh SLAs, ISO 9001 alignment, data quality validation"
+    }
+  ],
+  "experience": [
+    {
+      "company": "Austal USA",
+      "location": "Mobile, AL",
+      "dates": "January 2024 – Present",
+      "title": "Business Intelligence Developer | Analyst II",
+      "subtitle": "BI Solutions Architecture",
+      "responsibilities": [
+        "Architect the enterprise BI solution for a $2B+ Navy shipbuilding program - designing the full system from data source integration through semantic modeling, pipeline orchestration, governance framework, and dashboard delivery across production, QA, procurement, and executive functions.",
+        "Designed the data architecture that standardized KPI definitions across six departments, establishing a single semantic layer that eliminated conflicting metrics and improved reporting accuracy by 25% across the organization.",
+        "Architect and maintain automated ETL/ELT pipelines that reduced data retrieval latency from 10 minutes to under 2 seconds - enabling a real-time analytics capability that was architecturally impossible with the prior data stack.",
+        "Designed governance architecture covering data lineage, naming conventions, schema standards, and refresh SLAs - achieving ISO 9001 compliance and establishing a data quality baseline that's maintained automatically rather than manually audited.",
+        "Serve as the technical-to-business translator: take ambiguous stakeholder requirements from operations, QA, and executive leadership and convert them into precise architecture decisions, data models, and dashboard specifications.",
+        "Lead technical design reviews with junior developers and DevOps teams, ensuring implementation decisions align with the broader architecture rather than creating technical debt."
+      ]
+    },
+    {
+      "company": "Austal USA",
+      "location": "Mobile, AL",
+      "dates": "March 2022 – January 2024",
+      "title": "Application Developer II",
+      "subtitle": "Systems Architecture & BI",
+      "responsibilities": [
+        "Designed the data architecture for production BI dashboards - defining the ETL/ELT layer, database schema, and semantic model required to support Tableau drill-downs and Plotly integrations rendering in under 2 seconds.",
+        "Architected database schema redesign in collaboration with DevOps that improved overall database efficiency by 25%, with downstream performance improvements across all data-dependent systems.",
+        "Designed containerized deployment architecture using Docker and Kubernetes - reducing application downtime by 30% and establishing a system design pattern that the broader team adopted as standard practice."
+      ]
+    },
+    {
+      "company": "Hargrove-EPC",
+      "location": "Mobile, AL",
+      "dates": "June 2021 – February 2022",
+      "title": "Application Support Analyst",
+      "subtitle": "",
+      "responsibilities": [
+        "Diagnosed and re-architected SQL query performance through indexing design and execution plan analysis - achieving 75% runtime reduction and enabling faster downstream analytics delivery.",
+        "Designed data access layer architecture using ADO.NET, LINQ, and Entity Framework - clean separation between application logic and data layer, enabling maintainability and reuse across multiple applications.",
+        "Automated 50% of manual data processing via Python scripting, reclaiming 15+ hours/week of engineering capacity."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Enterprise BI Platform Architecture",
+      "company": "Austal USA",
+      "details": [
+        "Architected and delivered a full-stack BI platform: ERP + IoT ingestion layer → PySpark transformation pipeline → SQL Server semantic model → Power BI dashboard layer → Python anomaly detection. Processing 500K+ records/day with sub-2-second end-to-end latency.",
+        "Architectural decisions: Kubernetes-managed parallel clusters for audit-period peak load, automated data lineage for ISO compliance, reusable pipeline templates to enable 60% faster onboarding of new data domains.",
+        "Business results: 30% less material waste, 22% higher assembly line uptime, 35% reduction in manual reporting meetings."
+      ]
+    },
+    {
+      "name": "Scalable Multi-Source ETL Architecture",
+      "company": "Austal USA",
+      "details": [
+        "Designed data ingestion architecture for 20+ source systems with incompatible schemas and formats - ERP relational data, IoT JSON streams, legacy databases, Excel - using custom PySpark UDFs as the normalization layer.",
+        "Results: 60% faster project onboarding, 18% higher QA audit pass rates, 95% faster root-cause analysis."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "school": "Wayne State University",
+      "department": "College of Engineering - Computer Science",
+      "dates": "2019 – 2020",
+      "details": "Institutional GPA: 3.50 | Coursework: Algorithms & Data Structures, Artificial Intelligence, Software Engineering, Database Management Systems, Java Programming"
+    },
+    {
+      "school": "University of South Alabama",
+      "department": "School of Computing - Computer Information Science",
+      "dates": "2018 – 2019",
+      "details": "GPA: 3.73 | Dean's List | Coursework: Data Structures, Digital Logic & Computer Architecture, Calculus, Physics"
+    },
+    {
+      "school": "Bishop State Community College",
+      "department": "Computer Science & Information Systems",
+      "dates": "2016 – 2018",
+      "details": "Coursework: Network Security, Computer Forensics, Cyber Defense, Ethical Hacking, Android Development, Programming Logic"
+    }
+  ],
+  "certifications": [
+    "IBM Data Science Professional Certificate (10 courses) - Coursera (March 2021)",
+    "Google Data Analytics Professional Certificate (8 courses) - Coursera (April 2021)",
+    "Python for Data Science and AI - Coursera (March 2021)",
+    "Databases and SQL for Data Science with Python - Coursera (March 2021)",
+    "Data Science Methodology - Coursera (March 2021)",
+    "Microsoft Office Specialist: Access 2013 - Microsoft (July 2017)"
+  ]
+}

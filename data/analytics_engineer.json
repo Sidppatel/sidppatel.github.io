@@ -1,0 +1,164 @@
+{
+  "personal_info": {
+    "name": "SIDDH PATEL",
+    "title": "Analytics Engineer",
+    "subtitle": "Data Transformation & Semantic Layer Design",
+    "location": "Mobile, AL",
+    "phone": "+1 (205) 534-8664",
+    "email": "patelsiddh1408@live.com",
+    "linkedin": "linkedin.com/in/siddhppatel",
+    "github": "github.com/sidppatel"
+  },
+  "professional_summary": "Analytics Engineer with 5+ years of experience building the transformation layers, data models, and pipelines that turn raw operational data into reliable, analytics-ready assets. At Austal USA, I sit at the intersection of data engineering and business intelligence - I design the semantic layer that standardizes KPIs across six departments, build the PySpark pipelines that ingest 2M+ records daily from 20+ heterogeneous sources, and partner with BI consumers to make sure the data they're getting is both accurate and actually answers the question they're asking. I've reduced data retrieval from 10 minutes to under 2 seconds, enabled 95% faster root-cause analysis, and built reusable pipeline templates that cut new project onboarding by 60%. I'm looking for a role where data transformation is the craft, not an afterthought.",
+  "core_competencies": [
+    {
+      "category": "DATA TRANSFORMATION",
+      "items": [
+        "Semantic Layer Design",
+        "SQL Data Modeling",
+        "ETL/ELT Architecture",
+        "Data Pipeline Design",
+        "dbt-Style Thinking",
+        "Reusable Pipeline Templates"
+      ]
+    },
+    {
+      "category": "ANALYTICS ENGINEERING",
+      "items": [
+        "Apache Spark & PySpark",
+        "Python (Pandas, PySpark)",
+        "Data Lineage & Governance",
+        "Data Quality & Testing",
+        "Docker & Kubernetes",
+        "CI/CD & Azure DevOps"
+      ]
+    },
+    {
+      "category": "BI & COLLABORATION",
+      "items": [
+        "Power BI & Tableau",
+        "Stakeholder Requirements",
+        "Cross-Functional Delivery",
+        "Data Storytelling",
+        "Airflow Orchestration",
+        "Parallel Processing",
+        "SQL Server / PostgreSQL",
+        "ISO 9001 Compliance",
+        "Agile / Scrum Delivery"
+      ]
+    }
+  ],
+  "technical_skills": [
+    {
+      "category": "Data Transformation & Modeling",
+      "details": "SQL (Server, PostgreSQL, MySQL), PySpark custom UDFs, semantic layer design, data modeling, data contracts, schema design"
+    },
+    {
+      "category": "Pipeline & Orchestration",
+      "details": "Apache Spark, PySpark, Airflow, ETL/ELT design, parallel processing, data lineage tracking, Azure DevOps CI/CD"
+    },
+    {
+      "category": "Data Quality & Governance",
+      "details": "Data validation, automated testing, lineage documentation, ISO 9001 compliance, naming conventions, refresh SLAs"
+    },
+    {
+      "category": "BI & Visualization",
+      "details": "Power BI (DAX, Power Query), Tableau, Plotly Dash, Matplotlib - consuming the layers I build"
+    },
+    {
+      "category": "Containerization & DevOps",
+      "details": "Docker, Kubernetes, Git, TFS, Azure DevOps - production-grade deployment and orchestration"
+    },
+    {
+      "category": "Programming",
+      "details": "Python (Pandas, NumPy, PySpark, Scikit-learn, Flask), R, SQL, C#, PowerShell, REST API integration"
+    }
+  ],
+  "experience": [
+    {
+      "company": "Austal USA",
+      "location": "Mobile, AL",
+      "dates": "January 2024 – Present",
+      "title": "Business Intelligence Developer | Analyst II",
+      "subtitle": "Analytics Engineering",
+      "responsibilities": [
+        "Design and maintain the semantic data layer for a $2B+ Navy shipbuilding program - standardizing KPI definitions, data models, and transformation logic across production, QA, procurement, and finance, so every dashboard across every department draws from a single consistent source of truth.",
+        "Architect and automate ETL/ELT pipelines that reduced data retrieval latency from 10 minutes to under 2 seconds - transforming what used to be a manual daily preparation task into a live, sub-second data feed that leadership depends on.",
+        "Build and enforce a data governance framework covering lineage, naming conventions, schema standards, and refresh scheduling - cutting reporting errors by 25% and achieving ISO 9001 compliance across data assets.",
+        "Write Python-based anomaly detection pipelines that continuously validate incoming production data, automatically flagging deviations and data quality issues before they propagate downstream into dashboards or reports.",
+        "Design reusable pipeline templates and transformation modules, cutting new project data onboarding time by 60% and enabling the team to launch new analytics workstreams without rebuilding from scratch each time.",
+        "Collaborate directly with BI consumers - operations leads, QA managers, procurement teams - to translate business questions into data model requirements, ensuring the transformation layer answers real questions, not just easy ones."
+      ]
+    },
+    {
+      "company": "Austal USA",
+      "location": "Mobile, AL",
+      "dates": "March 2022 – January 2024",
+      "title": "Application Developer II",
+      "subtitle": "Data Systems & Transformation",
+      "responsibilities": [
+        "Engineered ETL/ELT pipelines that translate raw multi-source operational data into visualization-ready models rendering in under 2 seconds - handling ERP outputs, IoT sensor streams, and legacy database exports simultaneously.",
+        "Redesigned database schemas in collaboration with DevOps, improving query efficiency by 25% and reducing the computational overhead of downstream analytics pipelines.",
+        "Built Crystal Reports and Tableau dashboards on top of clean data layers, demonstrating the full analytics engineer workflow: model the data well, then the visualization almost builds itself."
+      ]
+    },
+    {
+      "company": "Hargrove-EPC",
+      "location": "Mobile, AL",
+      "dates": "June 2021 – February 2022",
+      "title": "Application Support Analyst",
+      "subtitle": "",
+      "responsibilities": [
+        "Rebuilt SQL query architecture through strategic indexing and execution plan analysis - cutting query runtime by 75% (3 minutes → under 10 seconds) and improving data availability for downstream consumers.",
+        "Developed data access layers using ADO.NET, LINQ, Entity Framework, and repository patterns - clean, reusable interfaces between application logic and the underlying database.",
+        "Automated 50% of manual data processing workflows in Python, reclaiming 15+ hours/week that was redirected toward data quality and transformation work."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Scalable ETL & Transformation Pipeline",
+      "company": "Austal USA",
+      "details": [
+        "Architected a containerized ETL pipeline ingesting 2M+ rows/day from 20+ sources - ERP, IoT JSON streams, legacy databases, Excel - using custom PySpark UDFs to normalize unstructured sensor data (vibration logs, thermal readings) into analytics-ready formats.",
+        "Results: 60% faster data onboarding, 18% higher QA audit pass rates, 95% faster root-cause analysis - all downstream of better data transformation."
+      ]
+    },
+    {
+      "name": "Real-Time Operational Data Layer",
+      "company": "Austal USA",
+      "details": [
+        "Built the transformation and modeling layer for a real-time BI platform tracking 15+ KPIs - automated Spark refresh pipelines, semantic SQL models, and Python data quality checks processing 500K+ records/day.",
+        "Results: 30% reduction in material waste, 22% improvement in assembly line uptime, 35% less time in manual reporting meetings."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "school": "Wayne State University",
+      "department": "College of Engineering - Computer Science",
+      "dates": "2019 – 2020",
+      "details": "Institutional GPA: 3.50 | Coursework: Algorithms & Data Structures, Artificial Intelligence, Software Engineering, Database Management Systems, Java Programming"
+    },
+    {
+      "school": "University of South Alabama",
+      "department": "School of Computing - Computer Information Science",
+      "dates": "2018 – 2019",
+      "details": "GPA: 3.73 | Dean's List | Coursework: Data Structures, Digital Logic & Computer Architecture, Calculus, Physics"
+    },
+    {
+      "school": "Bishop State Community College",
+      "department": "Computer Science & Information Systems",
+      "dates": "2016 – 2018",
+      "details": "Coursework: Network Security, Computer Forensics, Cyber Defense, Ethical Hacking, Android Development, Programming Logic"
+    }
+  ],
+  "certifications": [
+    "IBM Data Science Professional Certificate (10 courses) - Coursera (March 2021)",
+    "Google Data Analytics Professional Certificate (8 courses) - Coursera (April 2021)",
+    "Python for Data Science and AI - Coursera (March 2021)",
+    "Databases and SQL for Data Science with Python - Coursera (March 2021)",
+    "Data Science Methodology - Coursera (March 2021)",
+    "Microsoft Office Specialist: Access 2013 - Microsoft (July 2017)"
+  ]
+}

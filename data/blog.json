@@ -1,0 +1,28 @@
+{
+  "posts": [
+    {
+      "slug": "semantic-layer-lessons",
+      "title": "What I Learned Designing a Semantic Layer for a $2B Defense Program",
+      "date": "2026-04-22",
+      "tags": ["data-modeling", "semantic-layer", "kpi-governance"],
+      "excerpt": "A semantic layer isn't just a tech artifact - it's a contract between the people who measure things and the people who decide things. Here's what made ours stick across six departments.",
+      "body": "When we set out to build a real-time BI platform at Austal USA, the tech stack wasn't the hard part. The hard part was getting QA, production, procurement, and finance to agree on what 'on-time delivery' meant. The semantic layer became the negotiating table.\n\nThree principles that survived contact with reality:\n\n1. Every KPI gets one definition, owned by one team. No exceptions.\n2. The transformation logic lives in version control, not someone's notebook.\n3. Lineage is documented automatically, never by hand."
+    },
+    {
+      "slug": "etl-latency-10min-to-2sec",
+      "title": "How We Cut ETL Latency from 10 Minutes to Under 2 Seconds",
+      "date": "2026-03-08",
+      "tags": ["etl", "pyspark", "performance"],
+      "excerpt": "Sub-2-second BI on multi-source operational data isn't about throwing Spark at the problem. It's a series of unglamorous engineering decisions stacked carefully.",
+      "body": "Going from 10-minute manual prep to live data was a full-stack engineering exercise: incremental ingestion, columnar storage layout, careful indexing, and Kubernetes-managed parallel clusters that scale during audit windows. The biggest unlock wasn't any single tool - it was shrinking the work each layer had to do."
+    },
+    {
+      "slug": "iso-9001-data-governance",
+      "title": "ISO 9001 Compliance, but for Your Data Pipeline",
+      "date": "2026-01-30",
+      "tags": ["governance", "iso-9001", "data-quality"],
+      "excerpt": "Audit-ready data lineage shouldn't slow you down - it should be a side effect of building things right. Here's the framework we used.",
+      "body": "ISO 9001 cares about traceability, repeatability, and corrective action. Data engineering already cares about all three - we just don't usually call it that. We mapped automated lineage tracking, schema versioning, and PySpark validation pipelines onto the audit checklist and turned a compliance burden into a free byproduct of good engineering."
+    }
+  ]
+}

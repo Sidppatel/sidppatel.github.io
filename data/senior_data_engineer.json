@@ -1,0 +1,175 @@
+{
+  "personal_info": {
+    "name": "SIDDH PATEL",
+    "title": "Senior Data Engineer",
+    "subtitle": "Pipeline Architecture & Data Infrastructure",
+    "location": "Mobile, AL",
+    "phone": "+1 (205) 534-8664",
+    "email": "patelsiddh1408@live.com",
+    "linkedin": "linkedin.com/in/siddhppatel",
+    "github": "github.com/sidppatel"
+  },
+  "professional_summary": "Senior Data Engineer with 5+ years of hands-on experience designing, building, and operating the data infrastructure that powers enterprise analytics at scale. At Austal USA - a $2B+ Navy shipbuilding program - I've architected containerized ETL systems processing 2M+ records daily from 20+ heterogeneous sources, engineered sub-2-second data pipelines from what were previously 10-minute manual processes, and built the governance and lineage infrastructure that passed ISO 9001 audits and enabled real-time operational intelligence. I work across the full data engineering stack: pipeline design, distributed processing, database optimization, containerized deployment, and IoT sensor integration. I don't just build pipelines - I build pipelines that stay reliable, stay fast, and stay compliant as data volumes and source diversity grow.",
+  "core_competencies": [
+    {
+      "category": "PIPELINE ENGINEERING",
+      "items": [
+        "ETL/ELT Architecture",
+        "Apache Spark & PySpark",
+        "Airflow Orchestration",
+        "Custom PySpark UDFs",
+        "Parallel Processing Clusters",
+        "Data Lineage Tracking",
+        "Multi-Source Integration"
+      ]
+    },
+    {
+      "category": "INFRASTRUCTURE & DEVOPS",
+      "items": [
+        "Docker & Kubernetes",
+        "Azure DevOps & CI/CD",
+        "Database Schema Design",
+        "SQL Performance Tuning",
+        "Data Governance",
+        "IoT & Sensor Streams",
+        "ISO 9001 Compliance"
+      ]
+    },
+    {
+      "category": "SYSTEMS & ANALYTICS",
+      "items": [
+        "SQL Server / PostgreSQL / MongoDB",
+        "Python (PySpark, Pandas)",
+        "Real-Time Data Streaming",
+        "Machine Learning (Scikit-learn)",
+        "Power BI & Tableau (BI Layer)",
+        "REST API & Flask",
+        "Network Security & Forensics"
+      ]
+    }
+  ],
+  "technical_skills": [
+    {
+      "category": "Data Engineering & ETL",
+      "details": "Apache Spark, PySpark (custom UDFs, parallel cluster management), Airflow, ETL/ELT pipeline design, data wrangling, data lineage, parallel processing at scale"
+    },
+    {
+      "category": "Cloud & DevOps",
+      "details": "Azure DevOps, Docker, Kubernetes (auto-scaling cluster orchestration), Git, TFS, CI/CD - containerized production deployments"
+    },
+    {
+      "category": "Databases",
+      "details": "SQL Server, PostgreSQL, MySQL, MongoDB; schema design, clustered/non-clustered indexing, partitioning, query optimization, execution plan analysis, SQLAlchemy, ADO.NET, LINQ, Entity Framework"
+    },
+    {
+      "category": "Data Integration",
+      "details": "ERP systems, IoT sensor streams (vibration, thermal, environmental), legacy databases, JSON streams, Excel - 20+ source types in production simultaneously"
+    },
+    {
+      "category": "Programming",
+      "details": "Python, SQL, C#, R, VB, Shell, PowerShell, REST APIs, Flask, ASP.NET - full-stack data application engineering"
+    },
+    {
+      "category": "BI Layer",
+      "details": "Power BI, Tableau, SSRS, Crystal Reports, Plotly Dash - delivering clean data to BI consumers"
+    }
+  ],
+  "experience": [
+    {
+      "company": "Austal USA",
+      "location": "Mobile, AL",
+      "dates": "January 2024 – Present",
+      "title": "Business Intelligence Developer | Analyst II",
+      "subtitle": "Data Engineering Lead",
+      "responsibilities": [
+        "Design and operate the data engineering infrastructure for a $2B+ Navy shipbuilding analytics platform - owning pipeline architecture, ETL standards, data governance, platform reliability, and ingestion SLAs across production, QA, procurement, and executive reporting.",
+        "Engineered automated ETL/ELT pipelines that cut end-to-end data latency from 10 minutes to under 2 seconds, enabling near-real-time analytics at a volume and velocity that manual workflows couldn't support.",
+        "Built Python-based anomaly detection and data validation pipelines that continuously monitor 500K+ daily production records, automatically flagging data quality issues and operational deviations before they reach downstream consumers.",
+        "Designed and enforced a data governance framework - covering lineage documentation, schema standards, naming conventions, and refresh SLAs - that achieved ISO 9001 compliance and reduced reporting errors by 25%.",
+        "Mentor junior engineers on data engineering best practices through code reviews, architecture walkthroughs, and hands-on guidance on pipeline design, query optimization, and distributed processing patterns.",
+        "Define data contracts, integration specs, and pipeline SLAs in partnership with DevOps, QA, procurement, and executive stakeholders - keeping engineering output aligned with actual business data needs."
+      ]
+    },
+    {
+      "company": "Austal USA",
+      "location": "Mobile, AL",
+      "dates": "March 2022 – January 2024",
+      "title": "Application Developer II",
+      "subtitle": "Systems & Data Engineering",
+      "responsibilities": [
+        "Engineered production ETL/ELT pipelines processing high-volume operational data from ERP systems and IoT sensor streams simultaneously, with output data models rendering in BI tools in under 2 seconds.",
+        "Led database schema redesign across enterprise applications in collaboration with DevOps, improving database efficiency by 25% and materially reducing query overhead on all data-dependent downstream systems.",
+        "Deployed containerized application infrastructure using Docker and Kubernetes, reducing application downtime by 30% and establishing a scalable, repeatable deployment standard across the engineering team.",
+        "Coordinated with internal and external vendors on database management and data integration strategies, ensuring consistent and timely data availability across interconnected enterprise systems."
+      ]
+    },
+    {
+      "company": "Hargrove-EPC",
+      "location": "Mobile, AL",
+      "dates": "June 2021 – February 2022",
+      "title": "Application Support Analyst",
+      "subtitle": "Database Engineering",
+      "responsibilities": [
+        "Rebuilt SQL query performance from the ground up - through clustered and non-clustered indexing strategy and execution plan analysis - achieving 75% runtime reduction (3 minutes → under 10 seconds).",
+        "Developed data access layers for multiple production applications using ADO.NET, LINQ, Entity Framework, and the repository pattern - clean, reusable, and testable interfaces between application logic and data storage.",
+        "Automated 50% of manual data processing workflows in Python, reclaiming 15+ hours/week of engineering capacity.",
+        "Built full-stack application interfaces (ASP.NET, C#, HTML, CSS, JavaScript, jQuery) on top of database layers, ensuring reliable end-to-end data flow from storage through to user interaction."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Scalable ETL Pipeline for Production Analytics",
+      "company": "Austal USA",
+      "details": [
+        "Architected and delivered a production-grade containerized ETL system ingesting 2M+ rows/day from 20+ heterogeneous sources - ERP, IoT JSON sensor streams, legacy databases, Excel files - built with PySpark, Docker, Kubernetes, and Azure DevOps.",
+        "Wrote custom PySpark UDFs to parse and normalize unstructured sensor data (vibration logs, thermal readings) that no off-the-shelf connector could process - enabling first-time analytics on previously inaccessible operational data streams.",
+        "Deployed Kubernetes-managed parallel processing clusters to handle peak audit loads without degradation, and implemented automated data lineage tracking for full ISO 9001 compliance.",
+        "Results: 60% faster data onboarding, 18% higher QA audit pass rates, 95% faster root-cause analysis."
+      ]
+    },
+    {
+      "name": "Real-Time Analytics Data Infrastructure",
+      "company": "Austal USA",
+      "details": [
+        "Designed the engineering foundation for a real-time BI platform - automated Spark pipelines, optimized SQL Server models, and continuous Python validation - processing 500K+ records/day with sub-2-second end-to-end latency.",
+        "Results: 30% less material waste, 22% higher assembly line uptime, 35% reduction in manual reporting overhead."
+      ]
+    },
+    {
+      "name": "Autonomous IoT Vehicle with Sensor Data Pipeline",
+      "company": "Personal Project",
+      "details": [
+        "Engineered an end-to-end IoT data pipeline on Raspberry Pi 4 - real-time environmental sensor data collection (air quality, temperature), edge ML inference via TensorFlow Lite, and live web dashboard via Flask/Plotly - covering the full arc from hardware integration to analytics delivery."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "school": "Wayne State University",
+      "department": "College of Engineering - Computer Science",
+      "dates": "2019 – 2020",
+      "details": "Institutional GPA: 3.50 | Coursework: Algorithms & Data Structures, Artificial Intelligence, Software Engineering, Database Management Systems, Java Programming"
+    },
+    {
+      "school": "University of South Alabama",
+      "department": "School of Computing - Computer Information Science",
+      "dates": "2018 – 2019",
+      "details": "GPA: 3.73 | Dean's List | Coursework: Data Structures, Digital Logic & Computer Architecture, Calculus, Physics"
+    },
+    {
+      "school": "Bishop State Community College",
+      "department": "Computer Science & Information Systems",
+      "dates": "2016 – 2018",
+      "details": "Coursework: Network Security, Computer Forensics, Cyber Defense, Ethical Hacking, Android Development, Programming Logic"
+    }
+  ],
+  "certifications": [
+    "IBM Data Science Professional Certificate (10 courses) - Coursera (March 2021)",
+    "Google Data Analytics Professional Certificate (8 courses) - Coursera (April 2021)",
+    "Python for Data Science and AI - Coursera (March 2021)",
+    "Databases and SQL for Data Science with Python - Coursera (March 2021)",
+    "Data Science Methodology - Coursera (March 2021)",
+    "Microsoft Office Specialist: Access 2013 - Microsoft (July 2017)"
+  ]
+}

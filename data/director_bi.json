@@ -1,0 +1,157 @@
+{
+  "personal_info": {
+    "name": "SIDDH PATEL",
+    "title": "Director of Business Intelligence",
+    "subtitle": "Enterprise Analytics & Data Strategy",
+    "location": "Mobile, AL",
+    "phone": "+1 (205) 534-8664",
+    "email": "patelsiddh1408@live.com",
+    "linkedin": "linkedin.com/in/siddhppatel",
+    "github": "github.com/sidppatel"
+  },
+  "professional_summary": "Business intelligence leader with 5+ years of progressive experience owning enterprise analytics strategy, building scalable data platforms, and transforming raw operational data into the intelligence that drives organizational decisions. At Austal USA, I've operated as the de facto BI Director for a $2B+ defense shipbuilding program - setting the analytics vision, designing the governance framework, establishing data standards across six departments, and personally delivering the platforms that moved the organization from manual reporting to real-time intelligence. I've cut reporting cycle times by 35%, reduced material waste by 30%, and built a BI infrastructure that processes 2M+ records daily with sub-2-second latency. I'm a technical leader who speaks the language of both engineers and executives - and I'm looking for a Director-level role where I can build and lead a team, own the analytics roadmap, and make data a genuine organizational competitive advantage.",
+  "core_competencies": [
+    {
+      "category": "EXECUTIVE LEADERSHIP",
+      "items": [
+        "BI Strategy & Vision",
+        "Analytics Roadmapping",
+        "Team Building & Mentorship",
+        "Executive Stakeholder Mgmt",
+        "Change Management",
+        "Budget & Resource Planning",
+        "Organizational Transformation"
+      ]
+    },
+    {
+      "category": "ANALYTICS & GOVERNANCE",
+      "items": [
+        "Enterprise KPI Framework",
+        "Data Governance Strategy",
+        "Reporting Standardization",
+        "BI Platform Ownership",
+        "Data Quality Leadership",
+        "ISO 9001 Compliance",
+        "Performance Measurement"
+      ]
+    },
+    {
+      "category": "TECHNICAL FOUNDATION",
+      "items": [
+        "Power BI & Tableau",
+        "ETL Architecture",
+        "Apache Spark & PySpark",
+        "SQL & Database Design",
+        "Python Analytics",
+        "Docker & Kubernetes",
+        "Azure DevOps & CI/CD"
+      ]
+    }
+  ],
+  "technical_skills": [
+    {
+      "category": "BI & Reporting",
+      "details": "Power BI, Tableau, SSRS, Crystal Reports - enterprise-grade dashboard ecosystems for executive and operational consumers"
+    },
+    {
+      "category": "Data Architecture",
+      "details": "ETL/ELT pipeline design, semantic layer architecture, data warehousing, KPI standardization, data lineage, governance frameworks"
+    },
+    {
+      "category": "Engineering Depth",
+      "details": "Apache Spark, PySpark, Docker, Kubernetes, Azure DevOps, Python, SQL, C# - hands-on depth that earns credibility with engineering teams"
+    },
+    {
+      "category": "Analytics & ML",
+      "details": "Predictive modeling, anomaly detection, A/B testing, feature engineering, statistical analysis - analytical rigor behind every insight"
+    }
+  ],
+  "experience": [
+    {
+      "company": "Austal USA",
+      "location": "Mobile, AL",
+      "dates": "January 2024 – Present",
+      "title": "Business Intelligence Developer | Analyst II",
+      "subtitle": "Acting BI Director",
+      "responsibilities": [
+        "Own the enterprise BI strategy and platform for a $2B+ Navy shipbuilding program - setting the analytics vision, technology standards, governance policy, and delivery roadmap across all data consumers from production floor to executive suite.",
+        "Established the organization's first formalized data governance framework - standardizing KPI definitions, schema standards, lineage documentation, and data refresh SLAs across six departments, improving reporting accuracy by 25% and eliminating metric conflicts that previously delayed leadership decisions.",
+        "Delivered a real-time BI platform that transformed how Austal leadership consumes operational data - replacing fragmented manual reports with live Power BI dashboards, cutting reporting cycle time by 35% and enabling same-day data-driven responses to production issues.",
+        "Drove a 30% reduction in material waste and 22% improvement in assembly line uptime through analytics-driven insights, directly contributing to program performance on a multi-billion dollar Navy contract.",
+        "Serve as the executive-facing analytics leader - translating complex engineering and production data into strategic insights for program managers, operations directors, and C-suite stakeholders, shaping planning decisions that involve multi-million dollar resource allocations.",
+        "Informally lead and mentor junior analysts and developers - establishing technical standards, conducting design reviews, and building the team's capability to deliver analytics independently.",
+        "Champion data-driven culture change across the organization - building business cases for analytics investments, securing cross-functional buy-in from skeptical stakeholders, and demonstrating ROI through measurable operational outcomes."
+      ]
+    },
+    {
+      "company": "Austal USA",
+      "location": "Mobile, AL",
+      "dates": "March 2022 – January 2024",
+      "title": "Application Developer II",
+      "subtitle": "BI & Systems Leadership",
+      "responsibilities": [
+        "Led the technical direction for BI and application development - overseeing database architecture, containerized deployment strategy, and dashboard development that collectively reduced system downtime by 30% and improved data efficiency by 25%.",
+        "Drove adoption of modern engineering practices (Docker, Kubernetes, containerized CI/CD) that the broader development team subsequently adopted as the organizational standard.",
+        "Built and presented technical roadmaps for system enhancements to engineering management, securing resources and alignment for infrastructure improvements that supported long-term BI scalability."
+      ]
+    },
+    {
+      "company": "Hargrove-EPC",
+      "location": "Mobile, AL",
+      "dates": "June 2021 – February 2022",
+      "title": "Application Support Analyst",
+      "subtitle": "",
+      "responsibilities": [
+        "Established data performance standards by optimizing SQL query architecture, reducing query times by 75% and setting a performance baseline that improved the reliability of all data-dependent applications.",
+        "Identified and automated 50% of manual data workflows, recapturing 15+ hours/week in team capacity and demonstrating the ROI of automation-first thinking - an approach I've carried into every role since."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Enterprise Analytics Transformation",
+      "company": "Austal USA",
+      "details": [
+        "Led the end-to-end analytics transformation of a $2B+ Navy program - from fragmented manual reporting to a real-time, governed, multi-source BI platform processing 2M+ records daily and tracking 15+ KPIs across all operational functions.",
+        "Defined the architecture, led the delivery, managed stakeholder expectations, and measured outcomes: 30% less material waste, 22% higher uptime, 35% less time in reporting meetings, 60% faster onboarding of new data domains.",
+        "Built the data infrastructure that made the organization's analytics ambitions achievable - not just for today's reporting needs, but scalable for future program growth."
+      ]
+    },
+    {
+      "name": "Data Governance & Compliance Program",
+      "company": "Austal USA",
+      "details": [
+        "Designed and implemented the organization's data governance strategy - establishing the policies, tooling, and processes that ensured ISO 9001 compliance, data lineage traceability, and consistent metric definitions across all business functions.",
+        "Turned data governance from a compliance burden into a business enabler: standardized data reduced audit preparation time, eliminated metric debates in leadership meetings, and gave the organization confidence to make faster, bigger decisions on data alone."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "school": "Wayne State University",
+      "department": "College of Engineering - Computer Science",
+      "dates": "2019 – 2020",
+      "details": "Institutional GPA: 3.50 | Coursework: Algorithms & Data Structures, Artificial Intelligence, Software Engineering, Database Management Systems, Java Programming"
+    },
+    {
+      "school": "University of South Alabama",
+      "department": "School of Computing - Computer Information Science",
+      "dates": "2018 – 2019",
+      "details": "GPA: 3.73 | Dean's List | Coursework: Data Structures, Digital Logic & Computer Architecture, Calculus, Physics"
+    },
+    {
+      "school": "Bishop State Community College",
+      "department": "Computer Science & Information Systems",
+      "dates": "2016 – 2018",
+      "details": "Coursework: Network Security, Computer Forensics, Cyber Defense, Ethical Hacking, Android Development, Programming Logic"
+    }
+  ],
+  "certifications": [
+    "IBM Data Science Professional Certificate (10 courses) - Coursera (March 2021)",
+    "Google Data Analytics Professional Certificate (8 courses) - Coursera (April 2021)",
+    "Python for Data Science and AI - Coursera (March 2021)",
+    "Databases and SQL for Data Science with Python - Coursera (March 2021)",
+    "Data Science Methodology - Coursera (March 2021)",
+    "Microsoft Office Specialist: Access 2013 - Microsoft (July 2017)"
+  ]
+}
