@@ -2,7 +2,7 @@
   "personal_info": {
     "name": "SIDDH PATEL",
     "title": "Data & BI Engineer",
-    "subtitle": "Pipeline Architecture  |  Semantic Layer Design  |  Real-Time Analytics",
+    "subtitle": "Pipeline Architecture | Semantic Layer Design | Real-Time Analytics",
     "location": "Mobile, AL",
     "phone": "+1 (205) 534-8664",
     "email": "patelsiddh1408@live.com",
@@ -89,7 +89,7 @@
     {
       "company": "Austal USA",
       "location": "Mobile, AL",
-      "dates": "January 2024 – Present",
+      "dates": "January 2024 - Present",
       "title": "Business Intelligence Developer | Analyst II",
       "subtitle": "Data Engineering, Semantic Modeling & BI Platform Ownership",
       "responsibilities": [
@@ -107,7 +107,7 @@
     {
       "company": "Austal USA",
       "location": "Mobile, AL",
-      "dates": "March 2022 – January 2024",
+      "dates": "March 2022 - January 2024",
       "title": "Application Developer II",
       "subtitle": "Systems Architecture, Data Engineering & BI",
       "responsibilities": [
@@ -121,7 +121,7 @@
     {
       "company": "Hargrove-EPC",
       "location": "Mobile, AL",
-      "dates": "June 2021 – February 2022",
+      "dates": "June 2021 - February 2022",
       "title": "Application Support Analyst",
       "subtitle": "Database Engineering & Application Support",
       "responsibilities": [
@@ -178,29 +178,29 @@
   "education": [
     {
       "school": "Wayne State University",
-      "department": "College of Engineering — Computer Science",
-      "dates": "2019 – 2020",
-      "details": "Institutional GPA: 3.50  |  Coursework: Algorithms & Data Structures, Artificial Intelligence, Software Engineering, Database Management Systems, Java Programming"
+      "department": "College of Engineering - Computer Science",
+      "dates": "2019 - 2020",
+      "details": "Institutional GPA: 3.50 | Coursework: Algorithms & Data Structures, Artificial Intelligence, Software Engineering, Database Management Systems, Java Programming"
     },
     {
       "school": "University of South Alabama",
-      "department": "School of Computing — Computer Information Science",
-      "dates": "2018 – 2019",
-      "details": "GPA: 3.73  |  Dean's List  |  Coursework: Data Structures, Digital Logic & Computer Architecture, Calculus, Physics"
+      "department": "School of Computing - Computer Information Science",
+      "dates": "2018 - 2019",
+      "details": "GPA: 3.73 | Dean's List | Coursework: Data Structures, Digital Logic & Computer Architecture, Calculus, Physics"
     },
     {
       "school": "Bishop State Community College",
       "department": "Computer Science & Information Systems",
-      "dates": "2016 – 2018",
+      "dates": "2016 - 2018",
       "details": "Coursework: Network Security, Computer Forensics, Cyber Defense, Ethical Hacking, Android Development, Programming Logic"
     }
   ],
   "certifications": [
-    "IBM Data Science Professional Certificate (10 courses)  —  Coursera  (March 2021)",
-    "Google Data Analytics Professional Certificate (8 courses)  —  Coursera  (April 2021)",
-    "Python for Data Science and AI  —  Coursera  (March 2021)",
-    "Databases and SQL for Data Science with Python  —  Coursera  (March 2021)",
-    "Data Science Methodology  —  Coursera  (March 2021)",
-    "Microsoft Office Specialist: Access 2013  —  Microsoft  (July 2017)"
+    "IBM Data Science Professional Certificate (10 courses) - Coursera (March 2021)",
+    "Google Data Analytics Professional Certificate (8 courses) - Coursera (April 2021)",
+    "Python for Data Science and AI - Coursera (March 2021)",
+    "Databases and SQL for Data Science with Python - Coursera (March 2021)",
+    "Data Science Methodology - Coursera (March 2021)",
+    "Microsoft Office Specialist: Access 2013 - Microsoft (July 2017)"
   ]
 }
